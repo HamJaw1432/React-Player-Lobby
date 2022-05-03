@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: lightcyan;
+}
+
+.player {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 25px;
+}
+
+.player img{
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+select {
+  width: 80%;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  background-color: lightgray;
+  appearance: none;
+  border-radius: 5px;
+}
+
+.lock-btn {
+  width: 80%;
+  text-align: center;
+  padding: 5px;
+  background-color: lightgreen;
+  border-radius: 5px;
+  border: 1px solid green;
+  box-shadow: 0px 3px 5px 1px green;
+}
+
